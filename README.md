@@ -4,4 +4,5 @@ This repository contains all coursework and assignments for **ECE 4822: Parallel
 
 
 
-© 2025 Shahzad Fuze. All rights reserved.
+© 2025 Shahzad Fuze. All rights reserved.  
+This repository is licensed under the [MIT License](LICENSE).
