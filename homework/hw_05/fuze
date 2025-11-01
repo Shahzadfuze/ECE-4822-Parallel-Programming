@@ -1,0 +1,13 @@
+nedc_130_[1]: !nice
+nice -19 sbatch --partition=gpu --nodelist=nedc_007 run.sh
+Submitted batch job 229481
+nedc_130_[1]: nice -19 sbatch --partition=gpu --nodelist=nedc_006 run.sh
+Submitted batch job 229482
+nedc_130_[1]: nice -19 sbatch --partition=gpu --nodelist=nedc_012 run.sh
+Submitted batch job 229483
+nedc_130_[1]: nice -19 sbatch --partition=gpu --nodelist=nedc_011 run.sh
+Submitted batch job 229484
+nedc_130_[1]: nice -19 sbatch --partition=gpu --nodelist=nedc_008 run.sh
+Submitted batch job 229485
+nedc_130_[1]: nice -19 sbatch --partition=gpu --nodelist=nedc_007 run.sh
+Submitted batch job 229486

@@ -1,0 +1,36 @@
+Detected 4 GPU(s), using 1
+
+===============================
+Total GPU parallel execution time for 1000 iteration(s): 6577.4707031250 ms
+===============================
+
+real	0m26.868s
+user	0m26.274s
+sys	0m0.548s
+Detected 4 GPU(s), using 2
+
+===============================
+Total GPU parallel execution time for 1000 iteration(s): 6590.1147460938 ms
+===============================
+
+real	0m27.175s
+user	0m26.140s
+sys	0m0.991s
+Detected 4 GPU(s), using 3
+
+===============================
+Total GPU parallel execution time for 1000 iteration(s): 6603.7548828125 ms
+===============================
+
+real	0m27.445s
+user	0m25.963s
+sys	0m1.436s
+Detected 4 GPU(s), using 4
+
+===============================
+Total GPU parallel execution time for 1000 iteration(s): 6617.5971679688 ms
+===============================
+
+real	0m27.713s
+user	0m25.887s
+sys	0m1.786s
