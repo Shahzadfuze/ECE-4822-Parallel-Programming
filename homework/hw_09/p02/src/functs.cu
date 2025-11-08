@@ -1,4 +1,7 @@
-#include "x.h"
+#include "header.cuh"
+
+
+
 
 
 /*
@@ -36,8 +39,10 @@ void printMatrix(float* matrix, long nrows,long ncols){
   printf("\n");
 }
 
+
+
 /*
-  Multiplies mat2 and mat1 to get mat3
+  Multiplies mat2 and mat1 to get mat3 using GPUs
   
   @param mat3: pointer to our resulting matrix
   @param mat2: pointer to our matrix 2 
@@ -48,59 +53,53 @@ void printMatrix(float* matrix, long nrows,long ncols){
   Returns true if multiplation was complete
   False if not 
 */
+
+__global__ void gpu_mmulti(float* C, const float* A, const float* B, int nrowsA, int ncols) {
+  int row = blockIdx.y * blockDim.y + threadIdx.y;
+  int col = blockIdx.x * blockDim.x + threadIdx.x;
+
+  if (row < nrowsA && col < ncols) {
+    float sum = 0;
+    for (int k = 0; k < ncols; ++k)
+      sum += A[row * ncols + k] * B[k * ncols + col];
+    C[row * ncols + col] = sum;
+  }
+}
+
+
+
+/*
+  Multiplies mat2 and mat1 to get mat3 using OpenMP
+  
+  @param mat3: pointer to our resulting matrix
+  @param mat2: pointer to our matrix 2 
+  @param mat1: pointer to our matrix 1 
+  @param nrows: number of rows in our matrix
+  @param ncols: number of columns
+  @prama nthreads: number of threads we want to use
+  Returns true if multiplation was complete
+  False if not 
+*/
+
 bool multiMatrix(float* mat3, float* mat2, float* mat1, long nrows, long ncols, int threads){
 
-  // Old Slow Matrix multiplication 
-   /*
+  omp_set_num_threads(threads);
   if(!mat1 || !mat2 || !mat3){
     return false;
   }
+
+#pragma omp parallel for
   for (long i = 0; i < nrows; i++) {
-    for (long k = 0; k < ncols; k++) {
-      float a = mat1[i * ncols + k];
-      for (long j = 0; j < nrows; j++) {
-	mat3[i * nrows + j] += a * mat2[k * nrows + j];
+    for (long j = 0; j < nrows; j++) {
+      float sum = 0;
+      for (long k = 0; k < ncols; k++) {
+	sum += mat1[i * ncols + k] * mat2[k * nrows + j];
       }
+      mat3[i * nrows + j] = sum;
     }
   }
-  */
-#pragma omp parallel for num_threads(threads)
-  for(long i = 0; i < nrows; i++){
-    /*
-      Setting the pointers to the rows in our result matrix
-      as well as our first matrix 
-     */
-    float* c_row = mat3 + i * nrows;  
-    float* a_row = mat1 + i * ncols;
-
-
-    for(long k =0; k < ncols; k++){
-      /*
-	A is going to equal "A[i, k]"
-	Well we are setting b_rows to be the rows for our other matrix mat2
-       */
-      float a = a_row[k];
-      float* b_row = mat2 + k * nrows;
-      
-
-
-      float* c_ptr = c_row;
-      float* b_ptr = b_row;
-      
-      /*
-	This is the matrix multiplication, we are making the
-	c_row = to a_row * b_row with pointers and we advance c and b 
-       */
-      for(long j = 0; j < nrows; j++){
-	*c_ptr += a * (*b_ptr);
-	c_ptr++;
-	b_ptr++;
-
-      }
-    }
-  }
-
-  
-
   return true;
 }
+
+
+

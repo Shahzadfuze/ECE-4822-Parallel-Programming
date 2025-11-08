@@ -10,15 +10,15 @@ all: x.exe
 # define a target to link the application
 #
 x.exe: x.o x_00.o
-	g++ -g -fopenmp -lm x.o x_00.o -o x.exe
+	g++ -g -O2 -fopenmp -lm x.o x_00.o -o x.exe
 
 # define targets to compile the source code
 #
 x.o: x.cc x.h Makefile
-	g++ -g -fopenmp -c x.cc -o x.o
+	g++ -g -O2 -fopenmp -c x.cc -o x.o
 
 x_00.o: x_00.cc x.h Makefile
-	g++ -g -fopenmp -c x_00.cc -o x_00.o
+	g++ -g -O2 -fopenmp -c x_00.cc -o x_00.o
 
 # define a target to clean the directory
 #

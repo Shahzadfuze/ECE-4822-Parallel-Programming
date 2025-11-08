@@ -1,13 +1,24 @@
 #!/bin/bash
 
 
+time ./src/x.exe 10000 10000 1 1
 
-for (( i=1; i<33; i++ )); do
-    # Commands to execute for each number
+time ./src/x.exe 10000 10000 1 5
 
-    echo "Number of threads: $i \n"
-time ./x.exe 1000 1000 1000 $i
-    done
+time ./src/x.exe 10000 10000 1 10
+
+time ./src/x.exe 10000 10000 1 15
+
+time ./src/x.exe 10000 10000 1 20
+
+time ./src/x.exe 10000 10000 1 25
+
+time ./src/x.exe 10000 10000 1 32
+
+
+
+
+
 
 
 

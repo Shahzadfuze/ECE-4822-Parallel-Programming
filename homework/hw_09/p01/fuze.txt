@@ -1,0 +1,109 @@
+1
+CPU Time: 3420.901418
+
+real    57m18.778s
+user    56m56.897s
+sys     0m5.760s
+5
+CPU Time: 3483.273610
+
+real    11m49.901s
+user    57m50.810s
+sys     0m14.242s
+10
+CPU Time: 3529.294105
+
+real    6m2.943s
+user    58m41.498s
+sys     0m9.713s
+15
+CPU Time: 3541.648687
+
+real    4m1.461s
+user    58m51.699s
+sys     0m11.797s
+20
+CPU Time: 3626.376319
+
+real    3m6.053s
+user    60m13.116s
+sys     0m15.137s
+25
+CPU Time: 3741.828368
+
+real    2m34.597s
+user    62m1.092s
+sys     0m22.651s
+32
+CPU Time: 3837.300119
+
+real    2m3.530s
+user    63m35.930s
+sys     0m23.343s
+nedc_130_[1]: bash run.sh
+1
+CPU Time: 3455.673504
+
+real    57m52.666s
+user    57m34.641s
+sys     0m2.772s
+5
+CPU Time: 3499.406971
+
+real    11m53.162s
+user    58m11.977s
+sys     0m9.165s
+10
+CPU Time: 3516.702238
+
+real    6m2.551s
+user    58m29.560s
+sys     0m8.961s
+15
+CPU Time: 3586.776038
+
+real    4m4.481s
+user    59m38.391s
+sys     0m10.242s
+20
+CPU Time: 3603.433606
+
+real    3m5.092s
+user    59m50.735s
+sys     0m14.537s
+25
+CPU Time: 3658.391744
+
+real    2m31.102s
+user    60m47.203s
+sys     0m13.094s
+32
+CPU Time: 3860.867820
+
+real    2m6.282s
+user    63m58.112s
+sys     0m24.704s
+nedc_130_[1]:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -20,8 +20,11 @@ int main(int argc, char** argv){
   long ncols = atoi(argv[2]);
   int niter = atoi(argv[3]);
   int nthreads = atoi(argv[4]);
-  
+  printf("%d\n", nthreads);
+
+  clock_t start, end;
   srand(time(NULL));
+  double cpu_time_used;
 
 
   // allocate rows
@@ -29,6 +32,8 @@ int main(int argc, char** argv){
   float* mat2 = (float*)malloc(nrows * ncols * sizeof(float));
   float* mat3 = (float*)malloc(nrows * ncols * sizeof(float));
 
+
+  
   randomizeMatrix(mat1, nrows, ncols);
   randomizeMatrix(mat2, nrows, ncols);
 
@@ -37,6 +42,7 @@ int main(int argc, char** argv){
   //    printMatrix(mat2, nrows, ncols);
   
 
+  start = clock();
 
   for(int i = 0; i < niter; i++){
 
@@ -44,7 +50,11 @@ int main(int argc, char** argv){
     multiMatrix(mat3, mat2, mat1, nrows, ncols, nthreads);
 
   }
+  end = clock();
+  cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
 
+
+  printf("CPU Time: %lf\n", cpu_time_used);
   //    printMatrix(mat3, nrows, ncols);
   // free memory
 

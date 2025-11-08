@@ -1,0 +1,8 @@
+nedc_130_[1]: nice -19 sbatch --partition=gpu --nodelist=nedc_008 run.sh
+Submitted batch job 229887
+nedc_130_[1]: nice -19 sbatch --partition=gpu --nodelist=nedc_01 run.sh
+sbatch: error: Batch job submission failed: Invalid node name specified
+nedc_130_[1]: nice -19 sbatch --partition=gpu --nodelist=nedc_011 run.sh
+Submitted batch job 229888
+nedc_130_[1]: nice -19 sbatch --partition=gpu --nodelist=nedc_012 run.sh
+Submitted batch job 229889

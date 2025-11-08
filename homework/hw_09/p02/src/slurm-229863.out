@@ -1,0 +1,120 @@
+Running with blocks=1,, threads=1,
+1
+
+real	2m24.120s
+user	2m9.972s
+sys	0m13.727s
+Running with blocks=1,, threads=10,
+10
+
+real	2m24.013s
+user	2m9.742s
+sys	0m13.728s
+Running with blocks=1,, threads=15,
+15
+
+real	2m25.252s
+user	2m13.022s
+sys	0m11.625s
+Running with blocks=1,, threads=20,
+20
+
+real	2m25.920s
+user	2m12.536s
+sys	0m12.702s
+Running with blocks=1,, threads=32
+32
+
+real	2m28.204s
+user	2m16.101s
+sys	0m11.549s
+Running with blocks=100,, threads=1,
+1
+
+real	2m39.403s
+user	2m25.066s
+sys	0m13.772s
+Running with blocks=100,, threads=10,
+10
+
+real	4m53.611s
+user	4m38.694s
+sys	0m14.144s
+Running with blocks=100,, threads=15,
+15
+
+real	5m11.629s
+user	4m58.412s
+sys	0m12.357s
+Running with blocks=100,, threads=20,
+20
+
+real	4m26.249s
+user	4m13.032s
+sys	0m12.191s
+Running with blocks=100,, threads=32
+32
+
+real	9m52.226s
+user	9m38.834s
+sys	0m11.911s
+Running with blocks=300,, threads=1,
+1
+
+real	4m2.959s
+user	3m51.368s
+sys	0m10.830s
+Running with blocks=300,, threads=10,
+10
+
+real	21m47.681s
+user	21m32.391s
+sys	0m11.504s
+Running with blocks=300,, threads=15,
+15
+
+real	22m19.126s
+user	22m3.230s
+sys	0m12.270s
+Running with blocks=300,, threads=20,
+20
+
+real	19m43.412s
+user	19m30.400s
+sys	0m9.916s
+Running with blocks=300,, threads=32
+32
+
+real	46m36.535s
+user	46m16.019s
+sys	0m13.051s
+Running with blocks=600, threads=1,
+1
+
+real	5m22.388s
+user	5m11.760s
+sys	0m9.771s
+Running with blocks=600, threads=10,
+10
+
+real	44m52.851s
+user	44m33.548s
+sys	0m13.189s
+Running with blocks=600, threads=15,
+15
+
+real	53m32.947s
+user	53m13.302s
+sys	0m12.504s
+Running with blocks=600, threads=20,
+20
+
+real	21m33.275s
+user	21m15.894s
+sys	0m14.480s
+Running with blocks=600, threads=32
+32
+
+real	19m45.263s
+user	19m23.375s
+sys	0m19.212s

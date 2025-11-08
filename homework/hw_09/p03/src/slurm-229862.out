@@ -1,0 +1,560 @@
+Running with blocks=1,, threads=1,, GPU=1,
+1
+Detected 4 GPU(s), using 1
+
+real	4m54.710s
+user	4m51.385s
+sys	0m2.524s
+Running with blocks=1,, threads=1,, GPU=2,
+1
+Detected 4 GPU(s), using 2
+
+real	4m15.858s
+user	4m12.225s
+sys	0m2.893s
+Running with blocks=1,, threads=1,, GPU=3,
+1
+Detected 4 GPU(s), using 3
+
+real	3m41.745s
+user	3m37.625s
+sys	0m3.485s
+Running with blocks=1,, threads=1,, GPU=4
+1
+Detected 4 GPU(s), using 4
+
+real	3m29.937s
+user	3m25.079s
+sys	0m4.231s
+Running with blocks=1,, threads=10,, GPU=1,
+10
+Detected 4 GPU(s), using 1
+
+real	5m1.476s
+user	4m58.207s
+sys	0m2.419s
+Running with blocks=1,, threads=10,, GPU=2,
+10
+Detected 4 GPU(s), using 2
+
+real	4m21.828s
+user	4m18.302s
+sys	0m2.765s
+Running with blocks=1,, threads=10,, GPU=3,
+10
+Detected 4 GPU(s), using 3
+
+real	3m53.847s
+user	3m49.577s
+sys	0m3.695s
+Running with blocks=1,, threads=10,, GPU=4
+10
+Detected 4 GPU(s), using 4
+
+real	3m34.342s
+user	3m29.071s
+sys	0m4.701s
+Running with blocks=1,, threads=15,, GPU=1,
+15
+Detected 4 GPU(s), using 1
+
+real	5m33.752s
+user	5m30.145s
+sys	0m2.692s
+Running with blocks=1,, threads=15,, GPU=2,
+15
+Detected 4 GPU(s), using 2
+
+real	4m32.717s
+user	4m29.410s
+sys	0m2.629s
+Running with blocks=1,, threads=15,, GPU=3,
+15
+Detected 4 GPU(s), using 3
+
+real	3m52.467s
+user	3m48.481s
+sys	0m3.408s
+Running with blocks=1,, threads=15,, GPU=4
+15
+Detected 4 GPU(s), using 4
+
+real	3m48.051s
+user	3m43.311s
+sys	0m4.160s
+Running with blocks=1,, threads=20,, GPU=1,
+20
+Detected 4 GPU(s), using 1
+
+real	6m27.342s
+user	6m24.055s
+sys	0m2.280s
+Running with blocks=1,, threads=20,, GPU=2,
+20
+Detected 4 GPU(s), using 2
+
+real	4m44.504s
+user	4m41.943s
+sys	0m1.807s
+Running with blocks=1,, threads=20,, GPU=3,
+20
+Detected 4 GPU(s), using 3
+
+real	4m4.488s
+user	4m1.162s
+sys	0m2.726s
+Running with blocks=1,, threads=20,, GPU=4
+20
+Detected 4 GPU(s), using 4
+
+real	3m40.452s
+user	3m36.630s
+sys	0m3.260s
+Running with blocks=1,, threads=32, GPU=1,
+32
+Detected 4 GPU(s), using 1
+
+real	5m53.185s
+user	5m50.369s
+sys	0m1.787s
+Running with blocks=1,, threads=32, GPU=2,
+32
+Detected 4 GPU(s), using 2
+
+real	4m12.906s
+user	4m10.314s
+sys	0m1.907s
+Running with blocks=1,, threads=32, GPU=3,
+32
+Detected 4 GPU(s), using 3
+
+real	3m57.183s
+user	3m53.987s
+sys	0m2.574s
+Running with blocks=1,, threads=32, GPU=4
+32
+Detected 4 GPU(s), using 4
+
+real	3m27.244s
+user	3m23.513s
+sys	0m3.199s
+Running with blocks=100,, threads=1,, GPU=1,
+1
+Detected 4 GPU(s), using 1
+
+real	5m33.882s
+user	5m31.091s
+sys	0m1.779s
+Running with blocks=100,, threads=1,, GPU=2,
+1
+Detected 4 GPU(s), using 2
+
+real	4m19.660s
+user	4m17.158s
+sys	0m1.816s
+Running with blocks=100,, threads=1,, GPU=3,
+1
+Detected 4 GPU(s), using 3
+
+real	4m3.227s
+user	3m59.931s
+sys	0m2.630s
+Running with blocks=100,, threads=1,, GPU=4
+1
+Detected 4 GPU(s), using 4
+
+real	3m26.177s
+user	3m22.342s
+sys	0m3.198s
+Running with blocks=100,, threads=10,, GPU=1,
+10
+Detected 4 GPU(s), using 1
+
+real	5m30.232s
+user	5m27.701s
+sys	0m1.611s
+Running with blocks=100,, threads=10,, GPU=2,
+10
+Detected 4 GPU(s), using 2
+
+real	4m21.191s
+user	4m18.642s
+sys	0m1.835s
+Running with blocks=100,, threads=10,, GPU=3,
+10
+Detected 4 GPU(s), using 3
+
+real	3m49.358s
+user	3m46.189s
+sys	0m2.511s
+Running with blocks=100,, threads=10,, GPU=4
+10
+Detected 4 GPU(s), using 4
+
+real	3m20.399s
+user	3m17.060s
+sys	0m2.828s
+Running with blocks=100,, threads=15,, GPU=1,
+15
+Detected 4 GPU(s), using 1
+
+real	5m34.693s
+user	5m32.219s
+sys	0m1.584s
+Running with blocks=100,, threads=15,, GPU=2,
+15
+Detected 4 GPU(s), using 2
+
+real	4m19.361s
+user	4m16.954s
+sys	0m1.633s
+Running with blocks=100,, threads=15,, GPU=3,
+15
+Detected 4 GPU(s), using 3
+
+real	4m17.188s
+user	4m14.048s
+sys	0m2.489s
+Running with blocks=100,, threads=15,, GPU=4
+15
+Detected 4 GPU(s), using 4
+
+real	3m15.649s
+user	3m12.104s
+sys	0m3.046s
+Running with blocks=100,, threads=20,, GPU=1,
+20
+Detected 4 GPU(s), using 1
+
+real	5m35.154s
+user	5m32.589s
+sys	0m1.634s
+Running with blocks=100,, threads=20,, GPU=2,
+20
+Detected 4 GPU(s), using 2
+
+real	4m10.412s
+user	4m7.958s
+sys	0m1.717s
+Running with blocks=100,, threads=20,, GPU=3,
+20
+Detected 4 GPU(s), using 3
+
+real	4m16.226s
+user	4m13.090s
+sys	0m2.461s
+Running with blocks=100,, threads=20,, GPU=4
+20
+Detected 4 GPU(s), using 4
+
+real	3m17.421s
+user	3m13.851s
+sys	0m3.071s
+Running with blocks=100,, threads=32, GPU=1,
+32
+Detected 4 GPU(s), using 1
+
+real	5m35.112s
+user	5m32.431s
+sys	0m1.755s
+Running with blocks=100,, threads=32, GPU=2,
+32
+Detected 4 GPU(s), using 2
+
+real	4m11.438s
+user	4m9.075s
+sys	0m1.631s
+Running with blocks=100,, threads=32, GPU=3,
+32
+Detected 4 GPU(s), using 3
+
+real	4m2.103s
+user	3m59.285s
+sys	0m2.248s
+Running with blocks=100,, threads=32, GPU=4
+32
+Detected 4 GPU(s), using 4
+
+real	3m6.365s
+user	3m2.846s
+sys	0m3.035s
+Running with blocks=300,, threads=1,, GPU=1,
+1
+Detected 4 GPU(s), using 1
+
+real	3m41.219s
+user	3m39.166s
+sys	0m1.568s
+Running with blocks=300,, threads=1,, GPU=2,
+1
+Detected 4 GPU(s), using 2
+
+real	2m20.352s
+user	2m18.428s
+sys	0m1.607s
+Running with blocks=300,, threads=1,, GPU=3,
+1
+Detected 4 GPU(s), using 3
+
+real	2m16.312s
+user	2m13.634s
+sys	0m2.368s
+Running with blocks=300,, threads=1,, GPU=4
+1
+Detected 4 GPU(s), using 4
+
+real	2m17.280s
+user	2m13.924s
+sys	0m3.070s
+Running with blocks=300,, threads=10,, GPU=1,
+10
+Detected 4 GPU(s), using 1
+
+real	3m43.654s
+user	3m41.369s
+sys	0m1.788s
+Running with blocks=300,, threads=10,, GPU=2,
+10
+Detected 4 GPU(s), using 2
+
+real	2m43.464s
+user	2m41.322s
+sys	0m1.795s
+Running with blocks=300,, threads=10,, GPU=3,
+10
+Detected 4 GPU(s), using 3
+
+real	2m28.307s
+user	2m25.555s
+sys	0m2.431s
+Running with blocks=300,, threads=10,, GPU=4
+10
+Detected 4 GPU(s), using 4
+
+real	2m21.773s
+user	2m18.347s
+sys	0m3.087s
+Running with blocks=300,, threads=15,, GPU=1,
+15
+Detected 4 GPU(s), using 1
+
+real	3m44.776s
+user	3m42.703s
+sys	0m1.578s
+Running with blocks=300,, threads=15,, GPU=2,
+15
+Detected 4 GPU(s), using 2
+
+real	2m43.569s
+user	2m41.520s
+sys	0m1.697s
+Running with blocks=300,, threads=15,, GPU=3,
+15
+Detected 4 GPU(s), using 3
+
+real	2m28.180s
+user	2m25.446s
+sys	0m2.416s
+Running with blocks=300,, threads=15,, GPU=4
+15
+Detected 4 GPU(s), using 4
+
+real	2m22.210s
+user	2m18.831s
+sys	0m3.065s
+Running with blocks=300,, threads=20,, GPU=1,
+20
+Detected 4 GPU(s), using 1
+
+real	3m44.942s
+user	3m42.906s
+sys	0m1.545s
+Running with blocks=300,, threads=20,, GPU=2,
+20
+Detected 4 GPU(s), using 2
+
+real	2m43.664s
+user	2m41.493s
+sys	0m1.822s
+Running with blocks=300,, threads=20,, GPU=3,
+20
+Detected 4 GPU(s), using 3
+
+real	2m28.677s
+user	2m25.901s
+sys	0m2.450s
+Running with blocks=300,, threads=20,, GPU=4
+20
+Detected 4 GPU(s), using 4
+
+real	2m22.389s
+user	2m18.972s
+sys	0m3.092s
+Running with blocks=300,, threads=32, GPU=1,
+32
+Detected 4 GPU(s), using 1
+
+real	3m44.923s
+user	3m42.731s
+sys	0m1.704s
+Running with blocks=300,, threads=32, GPU=2,
+32
+Detected 4 GPU(s), using 2
+
+real	2m44.094s
+user	2m41.923s
+sys	0m1.827s
+Running with blocks=300,, threads=32, GPU=3,
+32
+Detected 4 GPU(s), using 3
+
+real	2m29.020s
+user	2m26.469s
+sys	0m2.211s
+Running with blocks=300,, threads=32, GPU=4
+32
+Detected 4 GPU(s), using 4
+
+real	2m24.042s
+user	2m20.607s
+sys	0m3.066s
+Running with blocks=600, threads=1,, GPU=1,
+1
+Detected 4 GPU(s), using 1
+
+real	3m50.259s
+user	3m47.969s
+sys	0m1.790s
+Running with blocks=600, threads=1,, GPU=2,
+1
+Detected 4 GPU(s), using 2
+
+real	2m44.307s
+user	2m42.177s
+sys	0m1.775s
+Running with blocks=600, threads=1,, GPU=3,
+1
+Detected 4 GPU(s), using 3
+
+real	2m31.586s
+user	2m29.047s
+sys	0m2.199s
+Running with blocks=600, threads=1,, GPU=4
+1
+Detected 4 GPU(s), using 4
+
+real	2m23.819s
+user	2m20.441s
+sys	0m3.049s
+Running with blocks=600, threads=10,, GPU=1,
+10
+Detected 4 GPU(s), using 1
+
+real	3m50.355s
+user	3m48.164s
+sys	0m1.677s
+Running with blocks=600, threads=10,, GPU=2,
+10
+Detected 4 GPU(s), using 2
+
+real	2m45.141s
+user	2m43.108s
+sys	0m1.679s
+Running with blocks=600, threads=10,, GPU=3,
+10
+Detected 4 GPU(s), using 3
+
+real	2m30.495s
+user	2m27.760s
+sys	0m2.422s
+Running with blocks=600, threads=10,, GPU=4
+10
+Detected 4 GPU(s), using 4
+
+real	2m25.218s
+user	2m21.874s
+sys	0m3.034s
+Running with blocks=600, threads=15,, GPU=1,
+15
+Detected 4 GPU(s), using 1
+
+real	3m50.858s
+user	3m48.820s
+sys	0m1.538s
+Running with blocks=600, threads=15,, GPU=2,
+15
+Detected 4 GPU(s), using 2
+
+real	2m45.084s
+user	2m42.981s
+sys	0m1.742s
+Running with blocks=600, threads=15,, GPU=3,
+15
+Detected 4 GPU(s), using 3
+
+real	2m31.495s
+user	2m28.763s
+sys	0m2.396s
+Running with blocks=600, threads=15,, GPU=4
+15
+Detected 4 GPU(s), using 4
+
+real	2m24.551s
+user	2m21.184s
+sys	0m3.047s
+Running with blocks=600, threads=20,, GPU=1,
+20
+Detected 4 GPU(s), using 1
+
+real	3m49.916s
+user	3m47.641s
+sys	0m1.785s
+Running with blocks=600, threads=20,, GPU=2,
+20
+Detected 4 GPU(s), using 2
+
+real	2m44.402s
+user	2m42.426s
+sys	0m1.629s
+Running with blocks=600, threads=20,, GPU=3,
+20
+Detected 4 GPU(s), using 3
+
+real	2m33.410s
+user	2m30.854s
+sys	0m2.217s
+Running with blocks=600, threads=20,, GPU=4
+20
+Detected 4 GPU(s), using 4
+
+real	2m25.590s
+user	2m22.214s
+sys	0m3.070s
+Running with blocks=600, threads=32, GPU=1,
+32
+Detected 4 GPU(s), using 1
+
+real	3m49.510s
+user	3m47.318s
+sys	0m1.684s
+Running with blocks=600, threads=32, GPU=2,
+32
+Detected 4 GPU(s), using 2
+
+real	2m44.576s
+user	2m42.486s
+sys	0m1.709s
+Running with blocks=600, threads=32, GPU=3,
+32
+Detected 4 GPU(s), using 3
+
+real	2m31.409s
+user	2m28.709s
+sys	0m2.348s
+Running with blocks=600, threads=32, GPU=4
+32
+Detected 4 GPU(s), using 4
+
+real	2m24.254s
+user	2m20.892s
+sys	0m3.020s
